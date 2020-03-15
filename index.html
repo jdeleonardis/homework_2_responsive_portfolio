@@ -12,51 +12,53 @@
     integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
     crossorigin="anonymous"
   />
+  <!-- google font -->
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
   <!-- My CSS -->
   <link rel = "stylesheet" type ="text/css" href ="css/style.css"/>
 </head>
 
 <body>
+  <nav class="navbar navbar-expand-lg navbar-light bg-light border-bottom border-dark">
+    <a class="navbar-brand" id="navbar_name" href="#">James L DeLeonardis</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+  
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item active mr-5">
+          <a class="nav-link" href="index.html">About <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item active mr-5">
+          <a class="nav-link" href="portfolio.html">Portfolio <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item active mr-5">
+          <a class="nav-link" href="contact.html">Contact <span class="sr-only">(current)</span></a>
+        </li>                
+      </ul>
+    </div>
+  </nav>  
 
-  <nav>
-    <navbar class="navbar sticky-top navbar-expand-lg bg-light border-bottom border-dark">    
-      <a class="navbar-brand" href="#">James L DeLeonardis</a>
-      <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav ml-auto">   <!--important for homework!!! was mr-auto-->
-          <li class="nav-item mx-3">
-            <a class="nav-link text-muted" href="#">About</a>
-          </li>
-          <li class="nav-item mx-3">
-              <a class="nav-link text-muted" href="#">Portfolio</a>
-          </li>
-          <li class="nav-item mx-3">
-              <a class="nav-link text-muted" href="#">Contact</a>
-          </li>
-        </ul>
-      </div>
-    </navbar>
-  </nav>
 
   <div class="container">
     <!-- Row 1 - About me -->
     <div class="row align-items-center border-bottom border-dark">
-      <div class="col-lg-12">
+      <div class="col-lg-12 mt-2">
         <h3>About Me</h3> 
       </div>
     </div>
 
     <!-- Row 2 - Pic and paragraph -->    
-    <div class="row">
+    <div class="row my-3">
       <div class="col-lg-3">
         <!-- Responsive image -->
         <img src="images/photo0.jpg" class="img-fluid" alt="Responsive image">        
       </div>
       <div class="col-lg-9">
         <p>Hello!  My name is Jay DeLeonardis.  I am a web developer from Hillsborough, North Carolina.  I specialize in making the most amazing websites.  Can't you tell?</p> 
+        <p>Duis suscipit mi magna, vel faucibus dui malesuada vel. Donec efficitur, lorem venenatis egestas volutpat, ipsum leo feugiat est, nec fringilla nisl tellus eu erat. Pellentesque ac purus ultrices, feugiat lorem ac, rhoncus neque. Suspendisse diam tellus, fermentum vitae erat at, sodales hendrerit ipsum. Vivamus commodo justo nec mi malesuada fermentum. Fusce accumsan vel eros quis rutrum. Nunc egestas finibus eros, et eleifend metus fringilla eget.</p>
+        <p>Sed accumsan sem sapien, quis dignissim dui laoreet at. Fusce a finibus leo, vel semper libero. Suspendisse potenti. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. In sagittis et tortor ac consequat. Vestibulum nec pretium odio, pretium venenatis mauris. Aenean at tortor sed purus pharetra cursus. Donec in vehicula nunc. Morbi euismod placerat odio, sit amet luctus eros tempor vel. Donec dapibus, elit sit amet ultrices bibendum, mi eros ullamcorper ligula, egestas volutpat nisi risus sit amet nisi. Nunc arcu enim, varius vitae pharetra vitae, placerat et sapien. Aliquam a mi finibus, consequat est in, sollicitudin quam. Sed efficitur eros ligula, hendrerit aliquet felis fermentum ac. Curabitur tempus at eros vitae pulvinar.</p>
       </div>      
     </div>    
   </div>
@@ -87,84 +89,7 @@
     </div>
   </div> -->
   
-  <!-- Another Container -->
-  <div class="container">
-    <!-- first row -->
-    <div class="row">
-      <div class="col-sm-12">
-        <h3>testing another container</h3>
-      </div>
-    </div>
-
-    <!-- second row -->
-    <div class="row">
-      <div class="col-sm-8">
-        <div class="row align-items-center bg-primary my-4 py-4">   <!--each of these classes do something
-                                                                    align-items-center centers everything
-                                                                    bg-primary is the color
-                                                                    my-4 is a margin.  Look at bootstrap doc
-                                                                        "my" means top and bottom margins
-                                                                    py-4 is padding.  Same as "my", "py"
-                                                                        means padding top and bottom-->
-          <div class="col-sm-3">
-            <img class="img img-thumbnail" src="http://placehold.it/150x150" height="150px" width="150px">
-            <figcaption class="figure-caption">A caption for the above image.</figcaption>
-          </div>          
-          <div class="col-sm-9">
-            <p>test1</p>
-          </div>
-        </div>
-
-        <div class="row align-items-center bg-success my-4 py-4">
-          <div class="col-sm-9">
-            <p>Vestibulum vehicula pulvinar urna molestie lacinia. Nullam auctor mattis dapibus. Nam sollicitudin dui et mauris rhoncus dapibus. Nullam dolor diam, suscipit nec eros nec, porta egestas dolor. Maecenas facilisis vestibulum dapibus. Aliquam erat volutpat. Nam erat nulla, bibendum fringilla accumsan eget, suscipit eget lorem. In aliquet erat ac ex dapibus euismod eget quis risus. Sed semper mi ac mi bibendum facilisis. Ut quis ornare dui.</p>            
-          </div>          
-          <div class="col-sm-3">
-            <img class="img img-thumbnail" src="http://placehold.it/150x150" height="150px" width="150px">
-          </div>                    
-        </div>
-
-        <div class="row align-items-center  bg-secondary my-4 py-4">
-          <div class="col-sm-3">
-            <img class="img img-thumbnail" src="http://placehold.it/150x150" height="150px" width="150px">
-          </div>          
-          <div class="col-sm-9">
-            <p>test3</p>
-          </div>
-        </div>
-
-      </div>
-
-      <div class="col-sm-4">
-        <div class="card my-4 border-primary" style="width: 25rem;">  <!--class name 'my-4' means margin top bottom-->
-          <div class="card-body">
-            <h5 class="card-title">Card title</h5>
-            <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
-            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-            <a href="#" class="btn btn-primary stretched-link">Go somewhere</a>            
-          </div>
-        </div>        
-      </div>      
-    </div>    
-  </div>
-
-  <!-- Here we bring in some scripts required to allow some Bootstrap components to work.
-    For now, this is code to copy and paste. We'll get to script elements soon enough. -->
-  <script
-    src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
-    integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
-    crossorigin="anonymous"
-  ></script>
-  <script
-    src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
-    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
-    crossorigin="anonymous"
-  ></script>
-  <script
-    src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
-    integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
-    crossorigin="anonymous"
-  ></script>
+  
 </body>
 
 </html>
