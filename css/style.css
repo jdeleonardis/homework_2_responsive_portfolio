@@ -25,11 +25,6 @@ body p {
     color: teal;
 }
 
-/* Bottom left text */
-.bottom-left {
-    position: absolute;
-    top: 8px;
-    left: 16px;
-    background-color: red;
-    color: white;
-  }
+.caption {
+    text-align: center;
+}
