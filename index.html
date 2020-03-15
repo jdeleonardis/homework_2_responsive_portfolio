@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+
+  <meta charset="UTF-8">
+  <!-- Responsive meta tag -->
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <title>Homework 2</title>
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+    integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+    crossorigin="anonymous"
+  />
+  <!-- My CSS -->
+  <link rel = "stylesheet" type ="text/css" href ="css/style.css"/>
+</head>
+
+<body>
+
+  <nav>
+    <navbar class="navbar sticky-top navbar-expand-lg bg-light border-bottom border-dark">    
+      <a class="navbar-brand" href="#">James L DeLeonardis</a>
+      <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ml-auto">   <!--important for homework!!! was mr-auto-->
+          <li class="nav-item mx-3">
+            <a class="nav-link text-muted" href="#">About</a>
+          </li>
+          <li class="nav-item mx-3">
+              <a class="nav-link text-muted" href="#">Portfolio</a>
+          </li>
+          <li class="nav-item mx-3">
+              <a class="nav-link text-muted" href="#">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </navbar>
+  </nav>
+
+  <div class="container">
+    <!-- Row 1 - About me -->
+    <div class="row align-items-center border-bottom border-dark">
+      <div class="col-lg-12">
+        <h3>About Me</h3> 
+      </div>
+    </div>
+
+    <!-- Row 2 - Pic and paragraph -->    
+    <div class="row">
+      <div class="col-lg-3">
+        <!-- Responsive image -->
+        <img src="images/photo0.jpg" class="img-fluid" alt="Responsive image">        
+      </div>
+      <div class="col-lg-9">
+        <p>Hello!  My name is Jay DeLeonardis.  I am a web developer from Hillsborough, North Carolina.  I specialize in making the most amazing websites.  Can't you tell?</p> 
+      </div>      
+    </div>    
+  </div>
+
+  <!-- <div class="container">
+    <div class="row">
+      <div class="col-lg-8">
+        <h3>About Me</h3>  
+        <div class="row">
+          <div class="col-lg-3">
+              <img class="img img-thumbnail" src="http://placehold.it/150x150" height="150px" width="150px">
+              <div class="bottom-left">Bottom Left</div>
+          </div>
+          <div class="col-lg-9">
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed blandit eget tortor eget fringilla. Cras venenatis elementum semper. Etiam malesuada aliquet ante eu fermentum. Donec suscipit viverra gravida. Praesent pulvinar nunc ac nibh elementum, a dictum diam consequat. Suspendisse luctus, ex sed gravida porttitor, urna magna scelerisque nibh, vitae accumsan nisi est id ex. Phasellus vel tempus nulla, non feugiat enim. Sed in nisl augue. Pellentesque nec pharetra risus. Nam posuere scelerisque neque sagittis aliquet. Sed malesuada vestibulum odio at varius. Praesent consectetur condimentum metus, ac aliquam ante ornare at. Suspendisse potenti.</p>
+          </div>          
+        </div>                
+      </div>
+      <div class="col-lg-4">
+        <div class="card" style="width: 18rem;">
+          <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div> -->
+  
+  <!-- Another Container -->
+  <div class="container">
+    <!-- first row -->
+    <div class="row">
+      <div class="col-sm-12">
+        <h3>testing another container</h3>
+      </div>
+    </div>
+
+    <!-- second row -->
+    <div class="row">
+      <div class="col-sm-8">
+        <div class="row align-items-center bg-primary my-4 py-4">   <!--each of these classes do something
+                                                                    align-items-center centers everything
+                                                                    bg-primary is the color
+                                                                    my-4 is a margin.  Look at bootstrap doc
+                                                                        "my" means top and bottom margins
+                                                                    py-4 is padding.  Same as "my", "py"
+                                                                        means padding top and bottom-->
+          <div class="col-sm-3">
+            <img class="img img-thumbnail" src="http://placehold.it/150x150" height="150px" width="150px">
+            <figcaption class="figure-caption">A caption for the above image.</figcaption>
+          </div>          
+          <div class="col-sm-9">
+            <p>test1</p>
+          </div>
+        </div>
+
+        <div class="row align-items-center bg-success my-4 py-4">
+          <div class="col-sm-9">
+            <p>Vestibulum vehicula pulvinar urna molestie lacinia. Nullam auctor mattis dapibus. Nam sollicitudin dui et mauris rhoncus dapibus. Nullam dolor diam, suscipit nec eros nec, porta egestas dolor. Maecenas facilisis vestibulum dapibus. Aliquam erat volutpat. Nam erat nulla, bibendum fringilla accumsan eget, suscipit eget lorem. In aliquet erat ac ex dapibus euismod eget quis risus. Sed semper mi ac mi bibendum facilisis. Ut quis ornare dui.</p>            
+          </div>          
+          <div class="col-sm-3">
+            <img class="img img-thumbnail" src="http://placehold.it/150x150" height="150px" width="150px">
+          </div>                    
+        </div>
+
+        <div class="row align-items-center  bg-secondary my-4 py-4">
+          <div class="col-sm-3">
+            <img class="img img-thumbnail" src="http://placehold.it/150x150" height="150px" width="150px">
+          </div>          
+          <div class="col-sm-9">
+            <p>test3</p>
+          </div>
+        </div>
+
+      </div>
+
+      <div class="col-sm-4">
+        <div class="card my-4 border-primary" style="width: 25rem;">  <!--class name 'my-4' means margin top bottom-->
+          <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            <a href="#" class="btn btn-primary stretched-link">Go somewhere</a>            
+          </div>
+        </div>        
+      </div>      
+    </div>    
+  </div>
+
+  <!-- Here we bring in some scripts required to allow some Bootstrap components to work.
+    For now, this is code to copy and paste. We'll get to script elements soon enough. -->
+  <script
+    src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+    integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+    crossorigin="anonymous"
+  ></script>
+  <script
+    src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+    crossorigin="anonymous"
+  ></script>
+  <script
+    src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+    integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+    crossorigin="anonymous"
+  ></script>
+</body>
+
+</html>
