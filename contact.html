@@ -38,37 +38,42 @@
         </li>                
       </ul>
     </div>
-  </nav>  
+  </nav>
 
 
   <div class="container">
     <!-- Row 1 - Contact -->
     <div class="row align-items-center border-bottom border-dark">
         <div class="col-md-12 mt-3">
-          <h3>Contact</h3> 
+          <header> <!-- semantics -->
+            <h3>Contact</h3> 
+          </header>
         </div>
     </div>
 
-    <form>
-        <div class="form-group mt-4">
-            <label for="inputName">Name</label>
-            <input type="text" class="form-control" id="inputName" placeholder="John Smith">
-        </div> 
-        <div class="form-group">
-            <label for="emailAddress">Email</label>
-            <input type="email" class="form-control" id="emailAddress" placeholder="example@gmail.com">
-        </div>                  
-        <div class="form-group">
-            <label for="textArea">Message</label>
-            <textarea class="form-control" id="textArea" rows="3"></textarea>
-        </div> 
-        <button type="submit" class="btn btn-primary mb-3">Submit</button>               
-    </form>
-  </div>
-</body>
+    <section> <!-- semantics -->
+      <form class="needs-validation" novalidate>
+          <div class="form-group mt-4">
+              <label for="inputName">Name</label>
+              <input type="text" class="form-control" id="inputName" placeholder="John Smith">
+          </div> 
+          <div class="form-group">
+              <label for="emailAddress">Email</label>
+              <input type="email" class="form-control" id="emailAddress" placeholder="example@gmail.com">
+          </div>                  
+          <div class="form-group">
+              <label for="textArea">Message</label>
+              <textarea class="form-control" id="textArea" rows="3"></textarea>
+          </div> 
+          <button type="submit" class="btn btn-primary mb-3">Submit</button>               
+      </form>
+    </section>
 
-<footer class="footer fixed-bottom bg-light">  <!--sticky footer-->
+  </div>
+  <footer class="footer fixed-bottom bg-light">  <!--sticky footer-->
     <span class="text-muted">Copyright   Jay DeLeonardis   2020</span>
-</footer>
+  </footer>
+
+</body>
 
 </html>

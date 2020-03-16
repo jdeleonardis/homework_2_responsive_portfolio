@@ -12,6 +12,10 @@ body h3 {
     color: teal;
 }
 
+body h4 {
+    color: teal;
+}
+
 body p {
     font-size: large;
 }
@@ -19,8 +23,8 @@ body p {
 .container {
     background: white;
     margin-top: 30px;
+    margin-bottom: 30px;
 }
-
 #navbar_name {
     font-size: 30px;
     color: teal;

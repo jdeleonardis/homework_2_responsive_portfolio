@@ -38,42 +38,111 @@
         </li>                
       </ul>
     </div>
-  </nav>  
+  </nav>
 
 
   <div class="container">
     <!-- Row 1 - Portfolio -->
     <div class="row align-items-center border-bottom border-dark">
       <div class="col-md-12 mt-3">
-        <h3>Portfolio</h3> 
+        <header> <!-- semantics -->
+          <h3>Portfolio</h3> 
+        </header>
       </div>
     </div>
 
-    <!-- Row 2 - two pics -->    
-    <div class="row m-5">
-      <div class="col-md-6">
-        <img src="images/pong.png" class="mx-auto d-block img-fluid">
-        <!-- <img src="images/pong.png" class="mx-auto d-block img-thumbnail" style="height: 250px; width:250px;"> -->
-            <!-- <a href="/w3images/lights.jpg"> -->
-            <div class="caption">
-                <p>Pong</p>
-            </div>
-            <!-- </a> -->        
+    <section> <!-- semantics -->
+      <!-- Row 2 basically a sub-header row-->
+      <div class="Row mt-5">
+        <div class="col-md-6 text-left">
+          <h4>Old School</h4> 
+        </div>
+        <div class="col-md-6"></div>
       </div>
-      <div class="col-md-6">
-        <img src="images/pacman.png" class="mx-auto d-block img-fluid">
-        <!-- <img src="images/pacman.png" class="mx-auto d-block img-thumbnail" style="height: 250px; width:250px;">       -->
-            <!-- <a href="/w3images/lights.jpg"> -->
-            <div class="caption">
-                <p>Pac Man</p>
+      <!-- Row 3 - Row with two sub rows.  First sub row has two columns, while the second
+      sub row has one column-->    
+      <div class="row m-3 align-items-center">
+        <div class="col-md-6 text-center">
+          <figure class="figure">
+            <img src="images/pong.png"
+              class="figure-img img-fluid rounded" alt="Pong image" style="height: 300px; width: 300px">
+            <figcaption class="figure-caption text-center">Pong</figcaption>
+          </figure>       
+        </div>
+        <div class="col-md-6">
+          <div class="row">
+            <div class="col-md-6 text-center">
+              <figure class="figure">
+                <img src="images/pacman.png"
+                  class="figure-img img-fluid rounded" alt="Pacman image" style="height: 150px; width: 150px">
+                <figcaption class="figure-caption text-center">Pacman</figcaption>
+              </figure> 
             </div>
-            <!-- </a> -->        
+            <div class="col-md-6 text-center">
+              <figure class="figure">
+                <img src="images/donkey-kong.png"
+                  class="figure-img img-fluid rounded" alt="Donkey Kong image" style="height: 150px; width: 150px">
+                <figcaption class="figure-caption text-center">Donkey Kong</figcaption>
+              </figure> 
+            </div>            
+          </div>
+          <div class="row">
+            <div class="col-md-12 text-center">
+              <figure class="figure">
+                <img src="images/galaga.jpg"
+                  class="figure-img img-fluid rounded" alt="Galaga image" style="height: 150px; width: 150px">
+                <figcaption class="figure-caption text-center">Galaga</figcaption>
+              </figure> 
+            </div>
+          </div>          
+        </div>      
+      </div> 
+      <!-- Row 4 Another sub-header row-->
+      <div class="Row">
+        <div class="col-md-6 text-left">
+          <h4>New School</h4> 
+        </div>
+        <div class="col-md-6"></div>
       </div>
-    </div>    
+      <!-- Row 5 - One row, two columns.  Second column has two sub rows-->    
+      <div class="row m-3 align-items-center">
+        <div class="col-md-6 text-center">
+          <figure class="figure">
+            <img src="images/world_of_warcraft.jpg"
+              class="figure-img img-fluid rounded" alt="World Of Warcraft image" style="height: 300px; width: 350px">
+            <figcaption class="figure-caption text-center">World Of Warcraft</figcaption>
+          </figure>       
+        </div>
+        <div class="col-md-6">
+          <div class="row">
+            <div class="col-md-12 text-center">
+              <figure class="figure">
+                <img src="images/thewitcher.jpg"
+                  class="figure-img img-fluid rounded" alt="Witcher image" style="height: 150px; width: 250px">
+                <figcaption class="figure-caption text-center">Witcher</figcaption>
+              </figure> 
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-12 text-center">
+              <figure class="figure">
+                <img src="images/overwatch.jpg"
+                  class="figure-img img-fluid rounded" alt="Overwatch image" style="height: 150px; width: 250px">
+                <figcaption class="figure-caption text-center">Overwatch</figcaption>
+              </figure> 
+            </div>
+          </div>          
+        </div>      
+      </div>       
+    </section>   
+  </div>
+
+  <footer class="footer fixed-bottom bg-light">  <!--sticky footer-->
+    <span class="text-muted">Copyright   Jay DeLeonardis   2020</span>
+  </footer>
+  
 </body>
 
-<footer class="footer fixed-bottom bg-light">  <!--sticky footer-->
-  <span class="text-muted">Copyright   Jay DeLeonardis   2020</span>
-</footer>
+
 
 </html>
